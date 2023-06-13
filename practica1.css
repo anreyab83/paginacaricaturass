@@ -1,0 +1,134 @@
+
+*{
+	margin: 0px; 
+	padding: 0px;
+}
+body{
+	background-color: #d8f3f5;
+	 }
+#menuprincipal h1{
+	width: 96%;
+	height: 50px;
+	padding: 0% 2%;
+	background-color: #1db0eb;
+	border-top: 1px solid #448cac;
+	border-bottom: 1px solid #319fa3;
+	display: flex;
+}
+nav ul{
+	background-color: #0f57c2;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline-flex;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	width: 150px;
+}
+nav li:hover{
+	background-color: #0b0472;
+}
+#menuprincipal > div{
+	width: 1160px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	
+}
+#menuprincipal li {
+	display: inline-block;
+	height: 35px;
+	padding: 15px 10px 0px 10px;
+	margin-right: 5px;
+	display: inline-flex
+}
+#cabeceralogo {
+	width: 96%;
+	height: 150px;
+	padding: 0% 2%;
+	background-color: #1cc5d1;
+	text-align: center;
+	display: flex;
+}
+#cabeceralogo > div{
+	width: 960px;
+	margin: 0px auto;
+	padding-top: 45px;
+}
+#cabeceralogo h1 {
+	font: bold 55px Elephant, sans-serif;
+	color: #000000;
+}
+
+.contenido{
+	display: flex;
+	margin: 60px;
+	text-align: justify; 	
+}
+.articulos {
+	width: 80%;
+	border-right: 4px solid black;
+}
+.secciones {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+.secciones h2 {
+	font: bold 35px Elephant sans-serif;
+	color: #131212;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.contra1{
+	display: flex;
+	margin: 60px;
+	text-align: justify; 	
+}
+.cari {
+	width: 80%;
+	border-left: 4px solid black;
+}
+ .corre {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+ .corre h2 {
+	font: bold 35px Elephant sans-serif;
+	color: #131212;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.contenido1{
+	display: flex;
+	margin: 60px;
+	text-align: justify; 	
+}
+.articulos1 {
+	width: 80%;
+	border-right: 4px solid black;
+}
+
+ .secciones1 {
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+.secciones1 h2{
+	font: bold 35px Elephant sans-serif;
+	color: #131212;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.corre2 img, .secciones1 img, .corre img, .secciones img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}

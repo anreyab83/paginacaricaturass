@@ -1,0 +1,42 @@
+body{
+	background-color: #b9d2e9;
+    margin: auto;
+	}
+.contra, .contra2{
+    display: flex;
+    margin: 60px;
+    text-align: justify;    
+}
+.cari {
+    width: 80%;
+    border-left: 4px solid black;
+}
+.cari2 {
+    width: 80%;
+    border-right: 4px solid black;
+ }
+ .corre, .corre2{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+ .corre h2, .corre2 h2 {
+    font: bold 35px Elephant sans-serif;
+    color: #131212;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.corre p, .corre2 p {
+    font: bold 15px  sans-serif;
+    color: #131212;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+#descri{
+    font: bold 35px Elephant sans-serif;
+    color: #131212;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+}
